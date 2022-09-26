@@ -1,0 +1,38 @@
+.row__done {
+  background: none;
+  border: none;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.col {
+  background: rgba(45, 40, 40, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: start;
+  padding: 1em;
+  margin: 1%;
+}
+
+ul {
+  padding: 5px 0;
+}
+
+.row__prop{
+  color: #e97861;
+}
